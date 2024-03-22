@@ -1,0 +1,4612 @@
+{
+  "types": [
+    {
+      "fields": [
+        {
+          "name": "id",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "fee",
+          "type": {
+            "name": "BigDecimal"
+          }
+        }
+      ],
+      "inputFields": [
+        {
+          "name": "id",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_not",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_gt",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_lt",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_gte",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_lte",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "id_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "fee",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "fee_not",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "fee_gt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "fee_lt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "fee_gte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "fee_lte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "fee_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "fee_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        }
+      ],
+      "name": "ExchangeFee"
+    },
+    {
+      "fields": [
+        {
+          "name": "id",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "account",
+          "type": {
+            "name": "Exchanger"
+          }
+        },
+        {
+          "name": "currencyKey",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "amount",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amountInUSD",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "timestamp",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "gasPrice",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "block",
+          "type": {
+            "name": "BigInt"
+          }
+        }
+      ],
+      "inputFields": [
+        {
+          "name": "id",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_not",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_gt",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_lt",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_gte",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_lte",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "id_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "account",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_not",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_gt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_lt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_gte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_lte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "account_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "account_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_not_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_not_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_ends_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_not_ends_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "currencyKey",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "currencyKey_not",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "currencyKey_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "currencyKey_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "currencyKey_contains",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "currencyKey_not_contains",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "amount",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amount_not",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amount_gt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amount_lt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amount_gte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amount_lte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amount_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "amount_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "amountInUSD",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amountInUSD_not",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amountInUSD_gt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amountInUSD_lt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amountInUSD_gte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amountInUSD_lte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amountInUSD_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "amountInUSD_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "timestamp",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_not",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_gt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_lt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_gte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_lte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "timestamp_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "gasPrice",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "gasPrice_not",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "gasPrice_gt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "gasPrice_lt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "gasPrice_gte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "gasPrice_lte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "gasPrice_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "gasPrice_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "block",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "block_not",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "block_gt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "block_lt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "block_gte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "block_lte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "block_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "block_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        }
+      ],
+      "name": "ExchangeRebate"
+    },
+    {
+      "fields": [
+        {
+          "name": "id",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "account",
+          "type": {
+            "name": "Exchanger"
+          }
+        },
+        {
+          "name": "currencyKey",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "amount",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amountInUSD",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "timestamp",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "gasPrice",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "block",
+          "type": {
+            "name": "BigInt"
+          }
+        }
+      ],
+      "inputFields": [
+        {
+          "name": "id",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_not",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_gt",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_lt",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_gte",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_lte",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "id_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "account",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_not",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_gt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_lt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_gte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_lte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "account_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "account_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_not_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_not_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_ends_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_not_ends_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "currencyKey",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "currencyKey_not",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "currencyKey_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "currencyKey_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "currencyKey_contains",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "currencyKey_not_contains",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "amount",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amount_not",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amount_gt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amount_lt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amount_gte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amount_lte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amount_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "amount_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "amountInUSD",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amountInUSD_not",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amountInUSD_gt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amountInUSD_lt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amountInUSD_gte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amountInUSD_lte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amountInUSD_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "amountInUSD_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "timestamp",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_not",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_gt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_lt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_gte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_lte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "timestamp_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "gasPrice",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "gasPrice_not",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "gasPrice_gt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "gasPrice_lt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "gasPrice_gte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "gasPrice_lte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "gasPrice_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "gasPrice_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "block",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "block_not",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "block_gt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "block_lt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "block_gte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "block_lte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "block_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "block_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        }
+      ],
+      "name": "ExchangeReclaim"
+    },
+    {
+      "fields": [
+        {
+          "name": "id",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "timestamp",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "period",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "bucketMagnitude",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "synth",
+          "type": {
+            "name": "Synth"
+          }
+        },
+        {
+          "name": "firstSeen",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "lastSeen",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "trades",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "exchangeUSDTally",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "totalFeesGeneratedInUSD",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "balances",
+          "type": {
+            "name": ""
+          }
+        },
+        {
+          "name": "exchanges",
+          "type": {
+            "name": ""
+          }
+        }
+      ],
+      "inputFields": [
+        {
+          "name": "id",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_not",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_gt",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_lt",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_gte",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_lte",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "id_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "timestamp",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_not",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_gt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_lt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_gte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_lte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "timestamp_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "period",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "period_not",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "period_gt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "period_lt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "period_gte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "period_lte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "period_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "period_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "bucketMagnitude",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "bucketMagnitude_not",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "bucketMagnitude_gt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "bucketMagnitude_lt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "bucketMagnitude_gte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "bucketMagnitude_lte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "bucketMagnitude_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "bucketMagnitude_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "synth",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_not",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_gt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_lt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_gte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_lte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "synth_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "synth_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_not_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_not_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_ends_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_not_ends_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "firstSeen",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "firstSeen_not",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "firstSeen_gt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "firstSeen_lt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "firstSeen_gte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "firstSeen_lte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "firstSeen_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "firstSeen_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "lastSeen",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "lastSeen_not",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "lastSeen_gt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "lastSeen_lt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "lastSeen_gte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "lastSeen_lte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "lastSeen_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "lastSeen_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "trades",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "trades_not",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "trades_gt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "trades_lt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "trades_gte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "trades_lte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "trades_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "trades_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "exchangeUSDTally",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "exchangeUSDTally_not",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "exchangeUSDTally_gt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "exchangeUSDTally_lt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "exchangeUSDTally_gte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "exchangeUSDTally_lte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "exchangeUSDTally_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "exchangeUSDTally_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "totalFeesGeneratedInUSD",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "totalFeesGeneratedInUSD_not",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "totalFeesGeneratedInUSD_gt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "totalFeesGeneratedInUSD_lt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "totalFeesGeneratedInUSD_gte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "totalFeesGeneratedInUSD_lte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "totalFeesGeneratedInUSD_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "totalFeesGeneratedInUSD_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        }
+      ],
+      "name": "Exchanger"
+    },
+    {
+      "fields": [
+        {
+          "name": "id",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "frozen",
+          "type": {
+            "name": "Boolean"
+          }
+        },
+        {
+          "name": "upperLimit",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "lowerLimit",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "entryPoint",
+          "type": {
+            "name": "BigDecimal"
+          }
+        }
+      ],
+      "inputFields": [
+        {
+          "name": "id",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_not",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_gt",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_lt",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_gte",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_lte",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "id_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "frozen",
+          "type": {
+            "name": "Boolean"
+          }
+        },
+        {
+          "name": "frozen_not",
+          "type": {
+            "name": "Boolean"
+          }
+        },
+        {
+          "name": "frozen_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "frozen_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "upperLimit",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "upperLimit_not",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "upperLimit_gt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "upperLimit_lt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "upperLimit_gte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "upperLimit_lte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "upperLimit_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "upperLimit_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "lowerLimit",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "lowerLimit_not",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "lowerLimit_gt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "lowerLimit_lt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "lowerLimit_gte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "lowerLimit_lte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "lowerLimit_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "lowerLimit_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "entryPoint",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "entryPoint_not",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "entryPoint_gt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "entryPoint_lt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "entryPoint_gte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "entryPoint_lte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "entryPoint_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "entryPoint_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        }
+      ],
+      "name": "InversePricingInfo"
+    },
+    {
+      "fields": [
+        {
+          "name": "id",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "rate",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "aggregator",
+          "type": {
+            "name": "Bytes"
+          }
+        }
+      ],
+      "inputFields": [
+        {
+          "name": "id",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_not",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_gt",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_lt",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_gte",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_lte",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "id_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "rate",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "rate_not",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "rate_gt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "rate_lt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "rate_gte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "rate_lte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "rate_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "rate_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "aggregator",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "aggregator_not",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "aggregator_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "aggregator_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "aggregator_contains",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "aggregator_not_contains",
+          "type": {
+            "name": "Bytes"
+          }
+        }
+      ],
+      "name": "LatestRate"
+    },
+    {
+      "fields": [
+        {
+          "name": "id",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "amount",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "address",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "account",
+          "type": {
+            "name": "Exchanger"
+          }
+        },
+        {
+          "name": "timestamp",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "synth",
+          "type": {
+            "name": "Synth"
+          }
+        }
+      ],
+      "inputFields": [
+        {
+          "name": "id",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_not",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_gt",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_lt",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_gte",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_lte",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "id_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "amount",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amount_not",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amount_gt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amount_lt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amount_gte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amount_lte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amount_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "amount_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "address",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "address_not",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "address_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "address_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "address_contains",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "address_not_contains",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "account",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_not",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_gt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_lt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_gte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_lte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "account_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "account_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_not_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_not_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_ends_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_not_ends_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "timestamp",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_not",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_gt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_lt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_gte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_lte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "timestamp_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "synth",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_not",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_gt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_lt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_gte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_lte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "synth_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "synth_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_not_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_not_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_ends_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_not_ends_with",
+          "type": {
+            "name": "String"
+          }
+        }
+      ],
+      "name": "LatestSynthBalance"
+    },
+    {
+      "fields": [
+        {
+          "name": "synthExchange",
+          "type": {
+            "name": "SynthExchange"
+          }
+        },
+        {
+          "name": "synthExchanges",
+          "type": {
+            "name": ""
+          }
+        },
+        {
+          "name": "exchangeReclaim",
+          "type": {
+            "name": "ExchangeReclaim"
+          }
+        },
+        {
+          "name": "exchangeReclaims",
+          "type": {
+            "name": ""
+          }
+        },
+        {
+          "name": "exchangeRebate",
+          "type": {
+            "name": "ExchangeRebate"
+          }
+        },
+        {
+          "name": "exchangeRebates",
+          "type": {
+            "name": ""
+          }
+        },
+        {
+          "name": "total",
+          "type": {
+            "name": "Total"
+          }
+        },
+        {
+          "name": "totals",
+          "type": {
+            "name": ""
+          }
+        },
+        {
+          "name": "exchanger",
+          "type": {
+            "name": "Exchanger"
+          }
+        },
+        {
+          "name": "exchangers",
+          "type": {
+            "name": ""
+          }
+        },
+        {
+          "name": "exchangeFee",
+          "type": {
+            "name": "ExchangeFee"
+          }
+        },
+        {
+          "name": "exchangeFees",
+          "type": {
+            "name": ""
+          }
+        },
+        {
+          "name": "inversePricingInfo",
+          "type": {
+            "name": "InversePricingInfo"
+          }
+        },
+        {
+          "name": "inversePricingInfos",
+          "type": {
+            "name": ""
+          }
+        },
+        {
+          "name": "latestRate",
+          "type": {
+            "name": "LatestRate"
+          }
+        },
+        {
+          "name": "latestRates",
+          "type": {
+            "name": ""
+          }
+        },
+        {
+          "name": "synthByCurrencyKey",
+          "type": {
+            "name": "SynthByCurrencyKey"
+          }
+        },
+        {
+          "name": "synthByCurrencyKeys",
+          "type": {
+            "name": ""
+          }
+        },
+        {
+          "name": "synth",
+          "type": {
+            "name": "Synth"
+          }
+        },
+        {
+          "name": "synths",
+          "type": {
+            "name": ""
+          }
+        },
+        {
+          "name": "synthBalance",
+          "type": {
+            "name": "SynthBalance"
+          }
+        },
+        {
+          "name": "synthBalances",
+          "type": {
+            "name": ""
+          }
+        },
+        {
+          "name": "latestSynthBalance",
+          "type": {
+            "name": "LatestSynthBalance"
+          }
+        },
+        {
+          "name": "latestSynthBalances",
+          "type": {
+            "name": ""
+          }
+        },
+        {
+          "name": "_meta",
+          "type": {
+            "name": "_Meta_"
+          }
+        }
+      ],
+      "inputFields": [],
+      "name": "Subscription"
+    },
+    {
+      "fields": [
+        {
+          "name": "id",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "name",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "symbol",
+          "type": {
+            "name": "String"
+          }
+        }
+      ],
+      "inputFields": [
+        {
+          "name": "id",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_not",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_gt",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_lt",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_gte",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_lte",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "id_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "name",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "name_not",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "name_gt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "name_lt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "name_gte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "name_lte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "name_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "name_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "name_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "name_not_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "name_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "name_not_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "name_ends_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "name_not_ends_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "symbol",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "symbol_not",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "symbol_gt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "symbol_lt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "symbol_gte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "symbol_lte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "symbol_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "symbol_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "symbol_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "symbol_not_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "symbol_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "symbol_not_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "symbol_ends_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "symbol_not_ends_with",
+          "type": {
+            "name": "String"
+          }
+        }
+      ],
+      "name": "Synth"
+    },
+    {
+      "fields": [
+        {
+          "name": "id",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "amount",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "address",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "account",
+          "type": {
+            "name": "Exchanger"
+          }
+        },
+        {
+          "name": "timestamp",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "synth",
+          "type": {
+            "name": "Synth"
+          }
+        }
+      ],
+      "inputFields": [
+        {
+          "name": "id",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_not",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_gt",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_lt",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_gte",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_lte",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "id_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "amount",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amount_not",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amount_gt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amount_lt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amount_gte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amount_lte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "amount_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "amount_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "address",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "address_not",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "address_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "address_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "address_contains",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "address_not_contains",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "account",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_not",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_gt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_lt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_gte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_lte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "account_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "account_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_not_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_not_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_ends_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_not_ends_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "timestamp",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_not",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_gt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_lt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_gte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_lte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "timestamp_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "synth",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_not",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_gt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_lt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_gte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_lte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "synth_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "synth_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_not_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_not_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_ends_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_not_ends_with",
+          "type": {
+            "name": "String"
+          }
+        }
+      ],
+      "name": "SynthBalance"
+    },
+    {
+      "fields": [
+        {
+          "name": "id",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "proxyAddress",
+          "type": {
+            "name": "Bytes"
+          }
+        }
+      ],
+      "inputFields": [
+        {
+          "name": "id",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_not",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_gt",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_lt",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_gte",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_lte",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "id_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "proxyAddress",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "proxyAddress_not",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "proxyAddress_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "proxyAddress_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "proxyAddress_contains",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "proxyAddress_not_contains",
+          "type": {
+            "name": "Bytes"
+          }
+        }
+      ],
+      "name": "SynthByCurrencyKey"
+    },
+    {
+      "fields": [
+        {
+          "name": "id",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "account",
+          "type": {
+            "name": "Exchanger"
+          }
+        },
+        {
+          "name": "fromSynth",
+          "type": {
+            "name": "Synth"
+          }
+        },
+        {
+          "name": "toSynth",
+          "type": {
+            "name": "Synth"
+          }
+        },
+        {
+          "name": "fromAmount",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "fromAmountInUSD",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "toAmount",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "toAmountInUSD",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "feesInUSD",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "toAddress",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "timestamp",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "gasPrice",
+          "type": {
+            "name": "BigInt"
+          }
+        }
+      ],
+      "inputFields": [
+        {
+          "name": "id",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_not",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_gt",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_lt",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_gte",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_lte",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "id_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "account",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_not",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_gt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_lt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_gte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_lte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "account_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "account_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_not_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_not_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_ends_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "account_not_ends_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "fromSynth",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "fromSynth_not",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "fromSynth_gt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "fromSynth_lt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "fromSynth_gte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "fromSynth_lte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "fromSynth_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "fromSynth_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "fromSynth_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "fromSynth_not_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "fromSynth_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "fromSynth_not_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "fromSynth_ends_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "fromSynth_not_ends_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "toSynth",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "toSynth_not",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "toSynth_gt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "toSynth_lt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "toSynth_gte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "toSynth_lte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "toSynth_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "toSynth_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "toSynth_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "toSynth_not_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "toSynth_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "toSynth_not_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "toSynth_ends_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "toSynth_not_ends_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "fromAmount",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "fromAmount_not",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "fromAmount_gt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "fromAmount_lt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "fromAmount_gte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "fromAmount_lte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "fromAmount_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "fromAmount_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "fromAmountInUSD",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "fromAmountInUSD_not",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "fromAmountInUSD_gt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "fromAmountInUSD_lt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "fromAmountInUSD_gte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "fromAmountInUSD_lte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "fromAmountInUSD_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "fromAmountInUSD_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "toAmount",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "toAmount_not",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "toAmount_gt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "toAmount_lt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "toAmount_gte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "toAmount_lte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "toAmount_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "toAmount_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "toAmountInUSD",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "toAmountInUSD_not",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "toAmountInUSD_gt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "toAmountInUSD_lt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "toAmountInUSD_gte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "toAmountInUSD_lte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "toAmountInUSD_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "toAmountInUSD_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "feesInUSD",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "feesInUSD_not",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "feesInUSD_gt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "feesInUSD_lt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "feesInUSD_gte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "feesInUSD_lte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "feesInUSD_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "feesInUSD_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "toAddress",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "toAddress_not",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "toAddress_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "toAddress_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "toAddress_contains",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "toAddress_not_contains",
+          "type": {
+            "name": "Bytes"
+          }
+        },
+        {
+          "name": "timestamp",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_not",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_gt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_lt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_gte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_lte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "timestamp_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "gasPrice",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "gasPrice_not",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "gasPrice_gt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "gasPrice_lt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "gasPrice_gte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "gasPrice_lte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "gasPrice_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "gasPrice_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        }
+      ],
+      "name": "SynthExchange"
+    },
+    {
+      "fields": [
+        {
+          "name": "id",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "timestamp",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "period",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "bucketMagnitude",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "synth",
+          "type": {
+            "name": "Synth"
+          }
+        },
+        {
+          "name": "trades",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "exchangers",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "exchangeUSDTally",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "totalFeesGeneratedInUSD",
+          "type": {
+            "name": "BigDecimal"
+          }
+        }
+      ],
+      "inputFields": [
+        {
+          "name": "id",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_not",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_gt",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_lt",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_gte",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_lte",
+          "type": {
+            "name": "ID"
+          }
+        },
+        {
+          "name": "id_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "id_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "timestamp",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_not",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_gt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_lt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_gte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_lte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "timestamp_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "timestamp_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "period",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "period_not",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "period_gt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "period_lt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "period_gte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "period_lte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "period_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "period_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "bucketMagnitude",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "bucketMagnitude_not",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "bucketMagnitude_gt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "bucketMagnitude_lt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "bucketMagnitude_gte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "bucketMagnitude_lte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "bucketMagnitude_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "bucketMagnitude_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "synth",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_not",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_gt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_lt",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_gte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_lte",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "synth_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "synth_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_not_contains",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_not_starts_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_ends_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "synth_not_ends_with",
+          "type": {
+            "name": "String"
+          }
+        },
+        {
+          "name": "trades",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "trades_not",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "trades_gt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "trades_lt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "trades_gte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "trades_lte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "trades_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "trades_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "exchangers",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "exchangers_not",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "exchangers_gt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "exchangers_lt",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "exchangers_gte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "exchangers_lte",
+          "type": {
+            "name": "BigInt"
+          }
+        },
+        {
+          "name": "exchangers_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "exchangers_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "exchangeUSDTally",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "exchangeUSDTally_not",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "exchangeUSDTally_gt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "exchangeUSDTally_lt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "exchangeUSDTally_gte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "exchangeUSDTally_lte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "exchangeUSDTally_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "exchangeUSDTally_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "totalFeesGeneratedInUSD",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "totalFeesGeneratedInUSD_not",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "totalFeesGeneratedInUSD_gt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "totalFeesGeneratedInUSD_lt",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "totalFeesGeneratedInUSD_gte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "totalFeesGeneratedInUSD_lte",
+          "type": {
+            "name": "BigDecimal"
+          }
+        },
+        {
+          "name": "totalFeesGeneratedInUSD_in",
+          "type": {
+            "name": "String[]"
+          }
+        },
+        {
+          "name": "totalFeesGeneratedInUSD_not_in",
+          "type": {
+            "name": "String[]"
+          }
+        }
+      ],
+      "name": "Total"
+    }
+  ]
+}
